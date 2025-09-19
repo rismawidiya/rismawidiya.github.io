@@ -2,6 +2,8 @@
 
 Welcome to the repository hosting my personal portfolio website: [rismawidiya.github.io](https://rismawidiya.github.io). This site is built with GitHub Pages and showcases my professional journey, projects, and perspectives in data.
 
+---
+
 ## Website Overview
 
 My portfolio website contains the following sections:
@@ -18,11 +20,15 @@ My portfolio website contains the following sections:
 - **Perspectives in Data**  
   Insights and thoughts on data science, analytics, and related trends.
 
+---
+
 ## Technologies Used
 
 - GitHub Pages
 - HTML / CSS / JavaScript
 - Responsive design for desktop and mobile
+
+---
 
 ## How to Use / View
 
