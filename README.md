@@ -30,4 +30,4 @@ My portfolio website contains the following sections:
 
 ---
 
-Thank you in advance for visiting my portfolio!
+Thank you in advance for visiting my portfolio website!
