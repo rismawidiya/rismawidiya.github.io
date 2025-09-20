@@ -30,9 +30,4 @@ My portfolio website contains the following sections:
 
 ---
 
-## How to Use / View
-
-You can view the live portfolio at:  
-[https://rismawidiya.github.io](https://rismawidiya.github.io)
-
 Thank you in advance for visiting my portfolio!
