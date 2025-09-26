@@ -11,14 +11,14 @@ My portfolio website contains the following sections:
 - **About Me**  
   Learn about my background, education, and areas of expertise.
 
-- **Work Experience**  
-  Overview of my professional experience and roles I have undertaken.
-
 - **Projects & Use Cases**  
   Highlights of my key projects, case studies, and applied data work.
 
 - **Perspectives in Data**  
   Insights and thoughts on data science, analytics, and related trends.
+
+- **Work Experience**  
+  Overview of my professional experience and roles I have undertaken.
 
 ---
 
