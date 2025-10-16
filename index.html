@@ -175,22 +175,40 @@
 
 						<!-- Four -->
 							<section id="four">
-  								<div class="container">
-    								<h3>Certification</h3>
-    								<p>Here’s my most recent professional certification.</p>
+  								<div class="container flex-container">
+    								<!-- Certificate Image -->
+    								<div class="cert-image-container">
+      									<img
+        									id="certImage"
+        									src="images/certificate.jpg"
+        									alt="Purwadhika Certificate"
+        									class="cert-image"
+      									/>
+    								</div>
 
-    								<div class="certification-card">
-      									<h4>Certificate of Graduation</h4>
-      									<h5>Purwadhika Digital Technology School</h5>
-      									<p>
-        									<strong>Program:</strong> Digital Talent Incubator – Data Science and Machine Learning<br>
-        									<strong>Issued:</strong> September 2025<br>
-        									<strong>Credential ID:</strong> 202502007873
-      									</p>
+    								<!-- Certificate Text -->
+    								<div class="cert-text">
+      									<h3>Certification</h3>
+      									<p>Here’s my most recent professional certification.</p>
+
+      									<div class="certification-card">
+        									<h4>Certificate of Graduation</h4>
+        									<h5>Purwadhika Digital Technology School</h5>
+        									<p>
+          										<strong>Program:</strong> Digital Talent Incubator | Data Science and Machine Learning<br />
+          										<strong>Issued:</strong> September 2025<br />
+          										<strong>Credential ID:</strong> 202502007873
+        									</p>
+      									</div>
     								</div>
   								</div>
-							</section>
 
+								<!-- Modal (for zoomed image) -->
+  								<div id="imageModal" class="modal">
+    								<span class="close">&times;</span>
+    								<img class="modal-content" id="modalImg" />
+  								</div>
+							</section>
 
 				<!-- Footer -->
 					<section id="footer">
@@ -212,9 +230,35 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+		<!-- Certificate Modal Script -->
+			<script>
+  				document.addEventListener("DOMContentLoaded", function () {
+    				const modal = document.getElementById("imageModal");
+    				const img = document.getElementById("certImage");
+    				const modalImg = document.getElementById("modalImg");
+    				const closeBtn = document.querySelector(".close");
+
+    				if (img) {
+      					img.addEventListener("click", function () {
+        					modal.style.display = "block";
+        					modalImg.src = this.src;
+      					});
+    				}
+
+    				if (closeBtn) {
+      					closeBtn.addEventListener("click", function () {
+        					modal.style.display = "none";
+      					});
+    				}
+
+    				window.addEventListener("click", function (event) {
+      					if (event.target === modal) {
+        					modal.style.display = "none";
+      					}
+    				});
+  				});
+			</script>
+
 	</body>
 
 </html>
-
-
-
