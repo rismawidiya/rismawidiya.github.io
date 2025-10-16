@@ -233,18 +233,14 @@
     				const modalImg = document.getElementById("modalImg");
     				const closeBtn = document.querySelector(".close");
 
-    				if (img) {
-      					img.addEventListener("click", function () {
-        					modal.style.display = "block";
-        					modalImg.src = this.src;
-      					});
-    				}
+    				img.addEventListener("click", function () {
+      					modal.style.display = "block";
+      					modalImg.src = this.src;
+    				});
 
-    				if (closeBtn) {
-      					closeBtn.addEventListener("click", function () {
-        					modal.style.display = "none";
-      					});
-    				}
+    				closeBtn.addEventListener("click", function () {
+      					modal.style.display = "none";
+    				});
 
     				window.addEventListener("click", function (event) {
       					if (event.target === modal) {
