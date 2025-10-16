@@ -3426,40 +3426,43 @@ input, select, textarea {
   		color: #826F8C;
 	}
 
-/* Layout */
-	.flex-container {
+/* Certification section layout */
+	.certification-container {
   		display: flex;
-  		flex-wrap: wrap;
   		align-items: flex-start;
   		gap: 2rem;
+  		flex-wrap: wrap;
+  		margin-top: 1.5rem;
 	}
 
-	.cert-image-container {
+	.cert-image-wrapper {
   		flex: 1;
-  		max-width: 350px;
+  		max-width: 400px;
 	}
 
-	.cert-image {
+	.cert-image-wrapper img {
   		width: 100%;
-  		border-radius: 12px;
-  		cursor: pointer;
-  		transition: transform 0.3s;
+  		height: auto;
+  		border-radius: 10px;
+  		cursor: zoom-in;
+  		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  		transition: transform 0.2s ease;
 	}
 
-	.cert-image:hover {
+	.cert-image-wrapper img:hover {
   		transform: scale(1.02);
 	}
 
-	.cert-text {
-  		flex: 2;
+	.certification-card {
+  		flex: 1;
   		min-width: 280px;
 	}
 
-/* Modal Styling */
+/* Modal styling */
 	.modal {
   		display: none;
   		position: fixed;
-  		z-index: 9999;
+  		z-index: 1000;
   		padding-top: 60px;
   		left: 0;
   		top: 0;
@@ -3479,8 +3482,8 @@ input, select, textarea {
 
 	.close {
   		position: absolute;
-  		top: 25px;
-  		right: 45px;
+  		top: 30px;
+  		right: 50px;
   		color: #fff;
   		font-size: 40px;
   		font-weight: bold;
