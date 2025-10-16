@@ -17,8 +17,8 @@ My portfolio website contains the following sections:
 - **Perspectives in Data**  
   Insights and thoughts on data science, analytics, and related trends.
 
-- **Work Experience**  
-  Overview of my professional experience and roles I have undertaken.
+- **Certification**  
+  Details of my professional certification and credentials.
 
 ---
 
